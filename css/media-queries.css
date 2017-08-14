@@ -1,0 +1,172 @@
+
+@media screen and  (max-width: 991px) {
+	.but {
+		/*position: absolute;*/
+		display: none;
+	}
+
+	.menu_min {
+		display: block;
+		position: absolute;
+		top: 28px;
+		right: 40px;
+	}
+	.top_nav {
+		display: none;
+	}
+	.top_nav ul {
+		margin-bottom: 0;
+		margin-top: 14px;
+	}
+
+	.about_text {
+
+		-webkit-order: 1;
+		-moz-order: 1;
+		-ms-order: 1;
+		-o-order: 1;
+		order: 1;
+
+	}
+
+	.about_photos {
+
+		-webkit-order: 2;
+		-moz-order: 2;
+		-ms-order: 2;
+		-o-order: 2;
+		order: 2;
+		width: 70%;
+    margin: 0 auto;
+
+	}
+
+
+
+
+
+
+	.history_item:nth-child(1) .h-title,
+	.history_item:nth-child(2) .h-title,
+	.history_item:nth-child(3) .h-title {	
+
+		padding: 0 62px;
+		float: none;
+
+	}
+
+	.history_item:nth-child(even),
+	.history_item:nth-child(odd) {
+		float: none;
+		border: none;
+		padding: 0  0 40px;
+	}
+	.history_item:nth-child(1) .h-title_y,
+	.history_item:nth-child(3) .h-title_y {
+		right: -5px;
+	}
+	.history_item:nth-child(2) .h-title_y {	
+		left: -5px;
+	}
+
+
+	.h-title img {
+		width: 88%;
+		text-align: center;
+	}
+	.history_item:nth-child(1) .h-text,
+	.history_item:nth-child(2) .h-text,
+	.history_item:nth-child(3) .h-text,
+	.history_item:nth-child(3) img {
+		padding: 0 0 0 40px;
+	}
+
+	.about, .history {
+		box-shadow: none;
+	}
+	.row {
+		margin-left: 0;
+	}
+
+	.footer_nemu li {
+		text-align: center;
+	}
+
+	img.center{
+		width: 90%;
+	}
+
+	} /* end 991px */
+
+
+
+	@media screen and  (max-width: 767px) {
+
+		.content {
+			top: 320px;
+		}
+
+		.photo_item {
+			width: 350px;
+			height: auto;
+		}
+/*		.about_photos {
+			height: 310px;
+		}*/
+
+		.top_title .container .row .col-md-6 {
+			padding-left: 0;
+		}
+
+		.top_nav ul {
+
+			height: auto;
+			padding-left: 0;
+			-webkit-flex-wrap: wrap;
+			-moz-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			-o-flex-wrap: wrap;
+			flex-wrap: wrap;
+
+		}
+
+		.top_nav ul li  {
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+
+
+		.p_tow, .p_last, .no_padding {
+			padding: 0 0 0 0;
+		}
+
+		.social_links li a {
+			width: 40px;
+		}
+
+		.gallery_item {
+
+			margin: 2px auto;
+		}
+		
+		.title {
+			font-size: 35px;
+		}
+
+	}
+
+
+@media screen and  (max-width: 400px) {
+
+.about_photos {
+	width: 285px;
+	height: 380px;
+}
+
+.container {
+	padding-left: 10px;
+}
+
+
+}
